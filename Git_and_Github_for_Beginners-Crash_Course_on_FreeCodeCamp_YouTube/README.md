@@ -120,3 +120,33 @@ git push origin main
 
 ## Second, a repo that's on your machine and you wanna add to Github.
 
+To add a repo that's on our local machine; first we should initialize it:
+
+```
+git init
+```
+
+then let git know about the files
+
+```
+git add .
+```
+
+then commit those files to git
+
+```
+git commit -m "Your commit title" -m "Your commit description"
+```
+
+Now, to add this **repo** to Github you can do the following and it's the easiest way:
+
+1. Create a new Github **repo** under the same name as your local **repo**.
+2. in the terminal type
+    ```
+    git remote add origin Link_To_That_Repo_You_Created_On_Github
+    ```
+    This command will connect your local repo to your Github repo.
+3. push your local repo to Github
+   ```
+   git push origin master
+   ```

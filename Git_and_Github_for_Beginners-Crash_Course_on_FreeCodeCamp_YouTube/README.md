@@ -141,3 +141,39 @@ Now, to add this **repo** to Github you can do the following and it's the easies
    ```
    git push origin master
    ```
+
+
+## Now, what if you want to undo a step?
+
+### Undoing stage
+
+<br>
+If you wanna undo **adding** some files you can do that by using the command:
+
+```
+git reset
+```
+
+To undo a **commit**:
+```
+git reset HEAD~1
+```
+
+**HEAD** -> refers to the last commit.
+
+so **HEAD~1** means go to the commit before the last commit.
+
+To undo upto a certain commit, first get a list of all commits:
+```
+git log
+```
+ to display a list of all commits, each commit would have a commit key like this ```b88ba3758222f6aa100386288d6ab4811a056990``` copy this commit key and use it with the command:
+
+ ```
+ git reset b88ba3758222f6aa100386288d6ab4811a056990
+ ``` 
+
+---
+<br>
+
+Then, there was some talking about **Branching** and **Forking** but I don't have to study that because I'm still gonna study Git and Github in more details in one of the courses in the curriculum, I just learned from this course what I need to upload my work and projects to Github.

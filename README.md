@@ -49,7 +49,7 @@ By the end of this course, I should have:
 ------------------------------
 | Course | Duration | Status |Repository |
 | ---------- | ----------   | ---------- |---------- |
-| 1. [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) | 1h 8m   | ```To-Do``` | Link |
+| 1. [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) | 1h 8m   | ```To-Do``` | [Link](https://github.com/mohammedhaddad97/Kalbonyan-Almarsoos/tree/master/Git_and_Github_for_Beginners-Crash_Course_on_FreeCodeCamp_YouTube) |
 
 <br>
 

@@ -49,7 +49,7 @@ By the end of this course, I should have:
 ------------------------------
 | Course | Duration | Status |Repository |
 | ---------- | ----------   | ---------- |---------- |
-| 1. [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) | 1h 8m   | ```To-Do``` | [Link](https://github.com/mohammedhaddad97/Kalbonyan-Almarsoos/tree/master/Git_and_Github_for_Beginners-Crash_Course_on_FreeCodeCamp_YouTube) |
+| 1. [Git and GitHub for Beginners - Crash Course](https://www.youtube.com/watch?v=RGOj5yH7evk) | 1h 8m   | ```DONE``` | [Link](https://github.com/mohammedhaddad97/Kalbonyan-Almarsoos/tree/master/Git_and_Github_for_Beginners-Crash_Course_on_FreeCodeCamp_YouTube) |
 
 <br>
 
@@ -59,7 +59,7 @@ By the end of this course, I should have:
 ------------------------------
 | Course | Duration | Status |Repository |
 | ---------- | ----------   | ---------- |---------- |
-| 1. [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals-3) | 2h 10m   | ```To-Do``` | Link |
+| 1. [Programming Foundations: Fundamentals](https://www.linkedin.com/learning/programming-foundations-fundamentals-3) | 2h 10m   | ```In Progress``` | Link |
  | 2. [Programming Foundations: Beyond the Fundamentals](https://www.linkedin.com/learning/programming-foundations-beyond-the-fundamentals?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b) | 2h 14m   | ```To-Do``` | Link |
  | 3. [Programming Foundations: Object-Oriented Design ](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b) | 2h 40m   | ```To-Do```| Link |
 | 4. [PProgramming Foundations: Data Structures ](https://www.linkedin.com/learning/programming-foundations-data-structures-2?contextUrn=urn%3Ali%3AlyndaLearningPath%3A56db2b643dd5596be4e4989b) | 2h 20m   | ```To-Do```| Link |

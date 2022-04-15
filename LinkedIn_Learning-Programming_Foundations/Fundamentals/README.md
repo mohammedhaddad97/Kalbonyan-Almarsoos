@@ -168,4 +168,4 @@ And that's about it for this module.
 ---
 <br>
 
-## Module 1: Programming Syntax.
+## Module 2: Programming Syntax.

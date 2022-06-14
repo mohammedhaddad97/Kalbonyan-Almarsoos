@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -21,12 +21,8 @@ body {
   margin-bottom: 60px;
 }
 
-nav {
-  text-align: center;
-}
-
 article {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .post-header {
@@ -35,12 +31,15 @@ article {
 
 .main-header a {
   display: inline-block;
-  margin-top: 15px;
   margin-right: 30px;
 }
 
 .main-header a:link:last-child {
   margin-right: 0;
+}
+
+footer {
+  text-align: center;
 }
 
 h1,
@@ -98,6 +97,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -140,28 +140,27 @@ li:last-child {
 }
 
 .related-post-author {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 14px;
+  font-style: italic;
 }
 
 .related-post-list-item {
   list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
-  width: 500px;
+  padding: 40px;
 }
 
 .post-image {
   width: 100%;
   height: auto;
-}
-
-/* 
+} /* 
   Using Pseudo Classes, but I'm gonna
   comment it out because I don't want this styling.
 */
@@ -173,6 +172,7 @@ aside {
 a:link {
   color: #1098ad;
   text-decoration: none;
+  font-size: 18px;
 }
 
 a:visited {
@@ -197,7 +197,7 @@ a:active {
   right: 50px;
 }
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 30px;
 }
@@ -219,5 +219,69 @@ nav {
 .clearfixt::after {
   clear: both;
   content: "";
+  display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  padding: 40px;
+  box-sizing: border-box;
+  float: right;
+}
+
+footer {
+  clear: both;
+} */
+
+.main-header {
+  display: flex;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.post-and-related {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+article {
+  flex: 3.5;
+}
+
+aside {
+  flex: 1;
+  align-self: flex-start;
+}
+
+.related-post-link {
+  font-weight: bold;
+  margin-bottom: 15px;
   display: block;
 }

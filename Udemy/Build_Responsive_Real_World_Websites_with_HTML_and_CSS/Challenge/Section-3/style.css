@@ -192,11 +192,12 @@ img {
   width: 100%;
 }
 
+/* 
 .price-to-moreinfo {
 }
 
 .product-details-box {
-}
+} */
 
 .add-to-cart {
   grid-column: 1 / -1;
